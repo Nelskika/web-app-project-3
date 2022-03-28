@@ -1,0 +1,38 @@
+body{
+  background-color: rgba(10, 42, 84, 0.659);
+}
+table {
+  border: 2px solid blue;
+}
+
+table tr:nth-child(odd) {
+  background-color: rgb(20, 171, 182);
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+table tr > td:last-child {
+  
+    background-color: hsl(201, 18%, 49%);
+}
+
+table tr:nth-child(even) {
+  background-color: hsl(204, 64%, 55%);
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table tr:first-child {
+  background-color: hsl(60, 0%, 80%);
+}
+
+div:first-of-type{
+  background-color: rgb(10, 42, 84);
+ }
+
+ #firstgroup {
+   border-style: dashed;
+ }
+ #secondgroup{
+   border-style: dashed;
+ }
+ input:hover{background-color: red;}
